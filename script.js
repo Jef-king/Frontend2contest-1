@@ -6,14 +6,14 @@ let arr = [
 
 
 function PrintDeveloper() {
-let d=arr.filter(arr=>arr.profession==='developer')
-console.log(d);
+let PrintDeveloper=arr.filter(arr=>arr.profession==='developer')
+console.log(PrintDeveloper);
 }
 
 function addData() {
-let a={id:4,name:'susan',age:20,profession:'intern'};
-arr.push(a);
-console.log(arr);
+let addData={id:4,name:'susan',age:20,profession:'intern'};
+arr.push(addData);
+console.log(addData);
 }
 
 function removeAdmin() {
