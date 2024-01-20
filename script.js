@@ -29,7 +29,7 @@ function addData() {
 }
 
 function removeAdmin() {
-let remmoveadmin = arr.filter((employee)=>{
+let removeadmin = arr.filter((employee)=>{
   employee.profession !='admin';
 })
   console.log(removeadmin);
