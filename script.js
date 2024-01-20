@@ -1,7 +1,7 @@
 let arr = [
   { id: 1, name: 'john', age: 18, profession: 'developer' },
   { id: 2, name: 'jack', age: 20, profession: 'developer' },
-  { id: 3, name: 'karen', age: 19, profession: 'admin' },
+  { id: 3, name: 'karen', age: 19, profession: 'admin' }
 ];
 
 
@@ -17,10 +17,16 @@ console.log(arr);
 }
 
 function removeAdmin() {
-  arr=arr.filter(arr=>arr.profession!="admin");
+  arr=arr.filter(removeAdmin=>removeAdmin.profession!="admin");
   console.log(arr);
 }
 
 function concatenateArray() {
-  //Write your code here, just console.log
+ let concatenateArray=[
+  { id: 1, name: 'john', age: 18, profession: 'developer' },
+  { id: 2, name: 'jack', age: 20, profession: 'developer' },
+  { id: 3, name: 'karen', age: 19, profession: 'admin' }
+ ];
+ arr=arr.concat(concatenateArray);
+ console.log(arr);
 }
