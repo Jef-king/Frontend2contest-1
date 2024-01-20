@@ -13,11 +13,12 @@ console.log(PrintDeveloper);
 function addData() {
 let addData={id:4,name:'susan',age:20,profession:'intern'};
 arr.push(addData);
-console.log(addData);
+console.log(arr);
 }
 
 function removeAdmin() {
-  //Write your code here, just console.log
+  arr=arr.filter(arr=>arr.profession!="admin");
+  console.log(arr);
 }
 
 function concatenateArray() {
